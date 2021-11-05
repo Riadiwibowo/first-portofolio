@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.border{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 270px;
+    background-color:#ece9e3; 
+    padding: 10px 20px;
+
+}
+
+.text-center{
+    font-size: 100%;
+}
+
+.author-img{
+    display: flex;
+
+    width: 200px;
+    height: 200px;
+}
+
+.author-img img{
+    display: flex;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left:15px;
+    object-fit: cover;
+}
+
+.text-center h1{
+    text-align: center;
+    justify-content: center;
+}
+.collapse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collapse ul{
+    margin: 20px;
+    list-style: none;
+
+}
+
+.collapse ul li{
+    position: relative;
+    height: 30px;
+    width: 100%;
+    margin: 0 3px;
+    line-height: 10px;
+
+}
+
+.collapse ul li a{    
+    color: lightskyblue;
+    display: flex;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    justify-content: center;
+    align-items:center;
+}
+
+.porto-acc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.porto-acc ul {
+    list-style: none;
+}
+
+.porto-acc ul li a{
+    color: lightskyblue;
+
+}
+
+.porto-acc ul li a i{
+    font-size: 40px;
+}
+
+.footer p{
+    display: flex;
+    font-size:100% ;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    position:absolute;
+    height: 100%;
+    width: calc(100%-240px);
+    left: 280px;
+}
