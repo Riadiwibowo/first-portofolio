@@ -96,11 +96,13 @@ body{
     font-size: 40px;
 }
 
+.footer{
+    padding-top: 20px;
+}
 .footer p{
     display: flex;
     font-size:100% ;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 .main {
