@@ -17,7 +17,7 @@ body {
 aside {
   float: left;
   height: 100%;
-  width: 250px;
+  width: 220px;
   background-color: #ece9e3;
 }
 
@@ -106,7 +106,7 @@ aside {
 #carouselExampleDark {
   display: flex;
   float: right;
-  width: 1435px;
+  width: 1465px;
   padding-right: 20px;
 }
 
