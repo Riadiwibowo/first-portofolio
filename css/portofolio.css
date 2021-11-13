@@ -108,13 +108,13 @@ aside {
   float: right;
   width: 900px;
   margin-right: 350px;
+  height: 750px;
 }
 
 #carouselExampleDark .carousel-item img {
   object-fit: cover;
   object-position: center;
   overflow: hidden;
-
   height: 837px;
 }
 
@@ -130,6 +130,7 @@ aside {
   background: transparent;
   height: 60px;
   width: 200px;
+  margin-bottom: 100px;
 }
 .carousel-caption button a {
   text-decoration: none;
