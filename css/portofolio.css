@@ -106,8 +106,8 @@ aside {
 #carouselExampleDark {
   display: inline-block;
   float: right;
-  width: 1465px;
-  padding-right: 20px;
+  width: 900px;
+  margin-right: 350px;
 }
 
 #carouselExampleDark .carousel-item img {
