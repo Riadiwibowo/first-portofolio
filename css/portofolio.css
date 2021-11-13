@@ -105,7 +105,6 @@ aside {
 
 #carouselExampleDark {
   display: flex;
-  display: inline-block;
   float: right;
   width: 1435px;
   padding-right: 20px;
